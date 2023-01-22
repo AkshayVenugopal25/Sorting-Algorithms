@@ -1,5 +1,4 @@
 import java.util.Random;
-
 import static java.lang.Math.abs;
 import static java.lang.Math.random;
 
@@ -28,10 +27,7 @@ public class selection_sort
         for(int i = 0; i < arr.length; ++i)
         {
             System.out.println(arr[i]);
-           // System.out.print(" ");
         }
-
-       // System.out.println();
     }
 
     public static void selectionSort(int[] arr)
