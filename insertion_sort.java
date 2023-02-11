@@ -17,7 +17,7 @@ public class insertion_sort
 
         System.out.println("Array before sorting : ");
         printArray(arr);
-        bubbleSort(arr);
+        insertionSort(arr);
         System.out.println("Array after sorting : ");
         printArray(arr);
     }
@@ -30,11 +30,11 @@ public class insertion_sort
         }
     }
 
-    public static void bubbleSort(int[] arr)
+    public static void insertionSort(int[] arr)
     {
         int arrayLength = arr.length;
 
-        for(int i = 1; i < arrayLength - 1; ++i)
+        for(int i = 1; i < arrayLength; ++i)
         {
             int j = i;
 
