@@ -12,7 +12,7 @@ public class bubble_sort
 
         for(int i = 0; i < arrayLength; ++i)
         {
-            arr[i] = abs(random.nextInt() % 100);
+            arr[i] = abs(random.nextInt() % 10);
         }
 
         System.out.println("Array before sorting : ");
@@ -35,7 +35,7 @@ public class bubble_sort
     {
         int arrayLength = arr.length;
 
-        for(int i = 0; i < arrayLength - 1; ++i)
+        for(int i = 0; i < arrayLength; ++i)
         {
             for(int j = 0; j < arrayLength - i - 1; ++j)
             {
